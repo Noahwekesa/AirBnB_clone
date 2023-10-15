@@ -204,5 +204,6 @@ class HBNBCommand(cmd.Cmd):
         """ Emptyline implementation to do nothing\n"""
         pass
 
+
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
